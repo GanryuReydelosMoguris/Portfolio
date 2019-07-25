@@ -1,0 +1,54 @@
+.menu{
+    display: inline-block;
+    background: #3f48cc;
+    height: 4vh;
+    font-size: 2vh;
+    width: 100vw;
+    color: #fff;
+}
+
+.menu li{
+    display: inline-block;
+    width: 18vw;
+    height: 4vh;
+    text-align: center;
+    border: 3px #ffffff;
+    background: #3f48cc;
+}
+
+.menu li ul li {
+    display: block;
+    background: #3f48cc;
+    border: 3px #ffffff;
+
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rbg(0,0,0,0.2);
+    z-index: 1;
+     border: 3px #ffffff;
+}
+
+dropdown-content a{
+    color: #ffffff;
+    display: block;
+}
+#project:hover .dropDownContent{
+    display: block;
+    background: #3239a3;
+}
+.menu li ul li:hover{
+    cursor: poiner;
+    background: #3239a3;
+}
+.menu li:hover{
+    cursor: pointer;
+    
+    background: #3239a3;
+}
+
+#Overview{
+    background: #2c328e;
+}

@@ -1,0 +1,9 @@
+    <p>'allo, 'allo. I'm Tyler "Pete" Petersen, and I'm a software engineer. Been doing coding and the basics since middle school, when the gifted program introduced me to Game Maker Studios.</p>
+            <br/>
+            <p> I've learned a great deal since then as I've developed my skills both for academic, personal, and business use, and had a wide variety of exposure due to that. I have security training in C++, built a website from scratch for ATC inc, created a mobile app in my free time using kotlin which is on the google store, and often mess around with discord apps in python for fun. </p>
+            <br/>
+            <p> Outside of coding, my love of challenges has given me quite a few skills. From chess, I've developed a rather impressive visual memory, if I've seen it, chances are, I can remember it. Being an eagle scout and working in Washington DC as a page taught me a great deal of leadership. I've never been afraid to take charge if its needed, though I'm more than happy to help whoever is actually in charge at all times. </p>
+            <br/>
+            <p>From my father and church, I learned a good work ethic. I had little issue even working 80 hours a week as contractor.</p>
+            <br/> 
+            <p> And that's just an overview of what I can do. I'm looking forward to working and increasing my skills to be of value</p>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tyler Petersen</title>
+        <script src="Portfolio.js"></script>
+		<link rel="stylesheet" href="Portfolio.css"/>
+        <link rel="stylesheet" href="drpdwnBtn.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>      
+        <!--Top box -->
+        <section class = "headerType" ready="fillHeader()">
+            <img src="portrait.jpg" id="me" style="float: left" />
+            <p class ="saying" style="font-style: italic">"An Honest Day's Work For An Honest Day's Pay"</p>
+            <p class ="saying" style="font-size: 2vh">~ Industrial Workers of the World</p>
+        </section>
+        
+        <!--Drop Down Menu -->
+        <nav class = "menu">
+            <ul class ="menu">
+                <li id = "Overview"onclick="loadOverviewFile()">
+                    <p>Overview</p>
+                </li>
+                <li id="project">
+                    <p>Project</p>
+        
+                    <ul class = "dropDownContent">
+                        <li id = "Cpp" onclick="loadCppFile()">C++</li>
+                        <li id = "Python" onclick="loadPythonFile()">Python</li>
+                        <li id = "Kotlin" onclick="loadKotlinFile()">Kotlin</li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Skills</p>
+                </li>
+                <li>
+                    <p>Biography</p>
+                </li>
+                <li>
+                    <p>Resumé</p>
+                </li>
+            </ul>
+
+        </nav>
+        
+        <!--Text Body -->
+        <section id = "body">
+            <p>'allo, 'allo. I'm Tyler "Pete" Petersen, and I'm a software engineer who enjoys problem solving. It's always just been fun for me, whether it be from playing chess for fun, to designing my previous employeer's website, and updating it with ideas whenever he had a problem.</p>
+            <br/>
+            <p>I've had a rather interesting life so far. I've been coding since middle school, working on various projects constantly, and learning the skills needed to complete a project. For example, learning Kotlin in order to develop an app called "Find My Food" on the Google Playstore (which is currently in Alpha). </p>
+            <br/>
+            <p>I was also responsible for 7Rtech's website (7Rtech.com), despite having no background in website design. Doing a task I'm actually trained for just might be a nice change of pace honestly! But then I wouldn't be a software engineer, because in this field, you never stop learning.</p>
+            <br/>
+            <img src="pageclass.jpg" style="float: right; display: inline-block; width: 10vw; padding-left: -10vw;"/>
+            <p>I've worked in other sectors as well, and am rather proud of the skills they've taught me. In highschool, I joined the Congressional Page Program. This involved running various errands throughout the entire capital complex, from packages to flags to even medication. I often walked 5 miles a day in this, and managed occasionally 40 hours a week while in highschool during the 5 months I was employeed there. The job came with security clearance, and extreme attention to detail. (The wrong colored socks would land you in serious trouble for example.)</p>
+            
+            <br/>
+            <p>One of the more proud jobs I've had was as a contractor for 7Rtech, also known as ATC. I was hired as a laborer, cleaning out hazardous material for papermill sites using technical pumps. It was nothing but creative problem solving. I initially didn't have much technical skill, but God blessed me with common sense and the ability to pick up quick, and I even managed to supervise several jobs. We worked 80 hours a week at times, and it was rather hard labor. But when I'm working I'm happy, and I enjoyed the challenges. </p>
+            <br/>
+            <p>Eventually, my skills were neccessary in the office, and I was moved to be a technical advisor of sorts, creating automatic spreadsheets, the company 
+            website, and overall helping with information.</p>
+    
+        </section>
+        
+        <!--Footer -->
+        <section class = "footer">
+            
+        </section>
+	</body>
+</html>
